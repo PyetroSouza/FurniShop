@@ -86,26 +86,27 @@ footer{
     border-radius:  15px;
     margin-top: 150px;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
     justify-content: space-around;
-    padding: 27px;
+    padding: 30px;
 }
 .container2 h1{
     font-size: 35px;
 }
 .item{
 text-align: center;
+flex-direction: column;
+justify-content: center;
 font-size: 25px;
 }
 
-.linhas{
+.linha{
     display: flex;
-    justify-content: space-between;
-    width: 100px;
-    height: 1px;
+    align-content: center;
+    width: 1px;
+    height:100px;
     background-color: white;
-   transform: rotate(90deg);
-   
 }
 .bolinhas{
     width: 96px;
